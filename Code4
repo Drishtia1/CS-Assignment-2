@@ -1,0 +1,15 @@
+int main()
+{
+int n, i, prod;
+
+printf("Enter number for multiplication\\n");
+scanf("%d", &n);
+
+for(i=1;i<=10;i++)
+{
+    prod=n*i;
+printf("%d X %d = %d\\n",n,i,prod);
+}
+
+return 0;
+}
