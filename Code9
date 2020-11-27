@@ -12,38 +12,38 @@ while(num!=0)
 {
 switch(num%10)
 {
-case0;
-printf("Zero");
+case 0:
+printf("Zero ");
 break;
-case1;
-printf("One");
+case 1:
+printf("One ");
 break;
-case2;
-printf("Two");
+case 2:
+printf("Two ");
 break;
-case3;
-printf("Three");
+case 3:
+printf("Three ");
 break;
-case4;
-printf("Four");
+case 4:
+printf("Four ");
 break;
-case5;
-printf("Five");
+case 5:
+printf("Five ");
 break;
-case6;
-printf("Six");
+case 6:
+printf("Six ");
 break;
-case7;
-printf("Seven"');
+case 7:
+printf("Seven ");
 break;
-case8;
-printf("Eight");
+case 8:
+printf("Eight ");
 break;
-case9;
-printf("Nine");
+case 9:
+printf("Nine ");
 break;
 }
 num=num/10;
 }
-return0;
+return 0;
 }
